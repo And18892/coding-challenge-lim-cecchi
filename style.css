@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.logo-container img{
+    width: 180px;
+}
+
+.logo-container h2{
+    color: #00DD00;
+}
+
+.navigation{
+    background-color: #00DD00;
+    width: 100%;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+ul{
+    padding: 8px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    width: 720px;
+    padding: 64px;
+}
+
+.scooter{
+    margin-bottom: 24px;
+}
+
+.scooter h2{
+    text-transform: capitalize;
+}
+
+.scooter h2, .scooter p, .scooter h6{
+    color: #ffff;
+    line-height: 130%;
+}
+
+.scooter h2:before{
+    content: "▪";
+    top: 4px;
+    padding-right: 4px;
+    position: relative;
+}
+
+.scooter p:before{
+    content: "↦";
+    position: relative;
+    padding-right: 4px;
+}
+
+.charge{
+    height: 24px;
+    border-radius: 4px;
+}
+
+.low{
+    width: 25%;
+    background-color: red;
+}
+
+.medium{
+    width: 40%;
+    background-color: orange;
+}
+
+.high{
+    width: 80%;
+    background-color: green;
+}
